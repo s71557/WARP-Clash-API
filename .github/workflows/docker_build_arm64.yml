@@ -26,7 +26,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: vvbbnn00/warp-clash-api
+          images: s71557/warp-clash-api
           tags: |
             type=sha,format=short
 
